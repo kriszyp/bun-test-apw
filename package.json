@@ -1,0 +1,22 @@
+{
+  "name": "bun-test-apw",
+  "author": "Kris Zyp",
+  "version": "1.1.4",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kriszyp/bun-test-apw"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "recompile": "node-gyp rebuild",
+    "test": "node ./index.js"
+  },
+  "main": "./index.js",
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^4.3.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
